@@ -3,10 +3,10 @@ body {
 }
 
 .header {
-    background-color: #1F2937;
+    background-color: #a1a1a1;
     color: white;
     display: flex;
-    border: 2px solid blue;
+    xborder: 2px solid blue;
     margin: -8px;
     box-sizing: border-box;
     justify-content: space-around;
@@ -14,30 +14,31 @@ body {
 
 .logo {
     display: flex;
-    border: 2px solid red;
+    xborder: 2px solid red;
     align-self: center;
     justify-content: center;
     flex: 1;
-    font-size: 24px;
+    font-size: 30px;
 
 }
 
 .links {
-    border: 2px solid green;
+   xborder: 2px solid green;
     xjustify-content: flex-start;
     flex: 2;
 }
 
 ul {
     display: flex;
-    border: 2px solid purple;
+    xborder: 2px solid purple;
     xflex: 3;
     justify-content: center;
 }
 
 li {
     display: inline;
-    border: 2px solid yellow;
-    padding: 0px 20px;
+    xborder: 2px solid yellow;
+    padding: 0px 40px;
+    font-size: 20px;
    
 }
