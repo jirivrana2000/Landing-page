@@ -14,7 +14,7 @@ body {
 
 .logo {
     display: flex;
-    border: 2px solid red;
+    xborder: 2px solid red;
     align-self: center;
     justify-content: center;
     flex: 1;
@@ -25,7 +25,7 @@ body {
 }
 
 .links {
-    border: 2px solid green;
+    xborder: 2px solid green;
     xjustify-content: flex-start;
     flex: 2;
 }
@@ -43,4 +43,55 @@ li {
     padding: 0px 40px;
     font-size: 20px;
    
+}
+
+
+
+
+
+.part1 {
+    display:flex;
+    background-color: #a1a1a1;
+    xborder: 2px solid blue;
+    padding: 150px;
+    margin-top: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    justify-content: center;
+}
+
+.title1 {
+    display: flex;
+    xborder: 2px solid red;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-basis: 1;
+    width: 400px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+button {
+    align-self: flex-start
+    ;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: #a1a1a1;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: white;
+}
+
+img {
+
+    width: 400px;
+    flex-shrink: 0;
+    flex-basis: 1;
 }
