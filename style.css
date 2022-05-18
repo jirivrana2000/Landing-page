@@ -14,16 +14,18 @@ body {
 
 .logo {
     display: flex;
-    xborder: 2px solid red;
+    border: 2px solid red;
     align-self: center;
     justify-content: center;
     flex: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
     font-size: 30px;
 
 }
 
 .links {
-   xborder: 2px solid green;
+    border: 2px solid green;
     xjustify-content: flex-start;
     flex: 2;
 }
