@@ -66,15 +66,20 @@ li {
     flex-direction: column;
     flex-shrink: 0;
     flex-basis: 1;
-    width: 400px;
+    width: 450px;
+    height: 300px;
 }
 
 h1 {
     color: white;
+    font-size: 40px;
+    margin-bottom: 20;
 }
 
 p {
     color: white;
+    xborder: 2px solid green;
+    margin-bottom: 40px;
 }
 
 button {
@@ -83,15 +88,16 @@ button {
     width: 100px;
     height: 40px;
     border-radius: 5px;
-    color: #a1a1a1;
+    color: white;
     font-size: 20px;
     font-weight: 300;
-    background-color: white;
+    background-color: #00C1FF;
 }
 
 img {
 
-    width: 400px;
+    width: 450px;
+    height: 300px;
     flex-shrink: 0;
     flex-basis: 1;
 }
