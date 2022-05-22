@@ -125,11 +125,10 @@ h2 {
 
 .photos img{
     display: flex;
-    border: 2px solid blue;
+    border: 3px solid blue;
     width: 150px;
     height: 150px;
-    xjustify-content: center;
-
+    border-radius: 15px;
     
 }
 
@@ -138,5 +137,5 @@ li p {
     margin-right: auto;
     border: 2px solid green;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
