@@ -139,3 +139,30 @@ li p {
     justify-content: center;
     margin-bottom: 70px;
 }
+
+
+
+
+
+.part3 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    border: 2px solid red;
+    background-color: #00C1FF;
+    margin-top: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.citation {
+    font-size: 30px;
+    border: 2px solid blue;
+}
+
+.autorname {
+    margin-left: auto;
+    border: 2px solid green;
+    margin-top: -30px;
+    font-weight: bolder;
+}
