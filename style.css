@@ -3,8 +3,8 @@ body {
 }
 
 .header {
-    background-color: #a1a1a1;
-    color: white;
+    background-color: gold;
+    color: #333333;
     display: flex;
     xborder: 2px solid blue;
     margin: -8px;
@@ -51,7 +51,7 @@ li {
 
 .part1 {
     display:flex;
-    background-color: #a1a1a1;
+    background-color: gold;
     xborder: 2px solid blue;
     padding: 150px;
     margin-top: 8px;
@@ -71,13 +71,13 @@ li {
 }
 
 h1 {
-    color: white;
+    color: #333333;
     font-size: 40px;
     margin-bottom: 20;
 }
 
 .title1 p {
-    color: white;
+    color: #333333;
     xborder: 2px solid green;
     margin-bottom: 40px;
 }
@@ -87,10 +87,10 @@ button {
     width: 100px;
     height: 40px;
     border-radius: 5px;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: 300;
-    background-color: #00C1FF;
+    background-color: white;
 }
 
 .small-photo img {
@@ -146,10 +146,10 @@ li p {
 .part3 {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 320px;
+    padding-right: 320px;
     border: 2px solid red;
     background-color: #00C1FF;
     margin-top: 8px;
@@ -159,7 +159,7 @@ li p {
 }
 
 .citation {
-    font-size: 30px;
+    font-size: 40px;
     border: 2px solid blue;
 }
 
@@ -167,6 +167,7 @@ li p {
     margin-left: auto;
     border: 2px solid green;
     margin-top: -20px;
+    margin-right: 20px;
     font-weight: bolder;
 }
 
@@ -198,4 +199,16 @@ li p {
     color: white;
     align-self: center;
     justify-self: center;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    color: white;
+    background-color: #a1a1a1;
 }
